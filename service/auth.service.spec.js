@@ -55,7 +55,7 @@ describe('/service/auth.service.js', () => {
     it('should return 500 error', (end) => {
         
         // response mocking
-        nock(endpoints.api.endpoint).post(endpoints.api.path.auth).reply(500, null);
+        nock(endpoints.api.endpoint).post(endpoints.api.path.auth).reply(500);
 
         service.authenticate(
             (success) => {
