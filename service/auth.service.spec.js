@@ -5,6 +5,8 @@ const sinon = require('sinon');
 const path = require('path');
 const chai = require('chai');
 const proxyquire = require('proxyquire').noCallThru();
+const nock = require('nock');
+const request = require('request');
 
 const expect = chai.expect;
 const assert = chai.assert;
@@ -19,25 +21,22 @@ describe('/service/auth.service.js', () => {
     });
 
     beforeEach(() => {
-        const requestMockStub = {
-            post: (url, options, callback) => {
-                callback({
-                    token: 'test_token'
-                });
-            }
-        };
-
         service = proxyquire(servicePath, {
-            'request': requestMockStub
+            'request': request
         });
 
-        spyRequestPost = sinon.spy(requestMockStub, 'post');
+        spyRequestPost = sinon.spy(request, 'post');
     });
 
-    it('should authenticate next to the remote api', (end) => {
-        service.authenticate((data) => {
+    it('should fetch valid content', (end) => {
+        // response mocking
+        nock(endpoints.api.endpoint).post(endpoints.api.path.auth).reply(200, { token: 'test_token' });
+
+        service.authenticate((error, data) => {
+
+            // assertions
             assert(spyRequestPost.calledOnce);
-            assert.equal(spyRequestPost.getCall(0).args[0], endpoints.api.auth);
+            assert.equal(spyRequestPost.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.auth);
             assert.deepEqual(spyRequestPost.getCall(0).args[1], {});
             expect(data).to.be.eql({
                 token: 'test_token'
