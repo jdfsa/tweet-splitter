@@ -1,0 +1,32 @@
+{
+  "name": "tweetsplitter",
+  "version": "1.0.0",
+  "description": "Grabs a message from a tweets API and split it into many parts of N characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"./**/*.spec.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdfsa/TweetSplitter.git"
+  },
+  "author": "jdfsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdfsa/TweetSplitter/issues"
+  },
+  "homepage": "https://github.com/jdfsa/TweetSplitter#readme",
+  "keywords": [
+    "Tweet",
+    "Splitter"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "fs": "0.0.1-security",
+    "mocha": "^5.2.0",
+    "path": "^0.12.7",
+    "proxyquire": "^2.1.0",
+    "request": "^2.88.0",
+    "sinon": "^7.2.3"
+  }
+}
