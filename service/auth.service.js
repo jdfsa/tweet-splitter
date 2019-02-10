@@ -3,11 +3,11 @@
 const endpoints = require('../config/endpoints');
 const request = require('request');
 
-exports.authenticate = (callback) => {
-    request.post(endpoints.api.endpoint + endpoints.api.path.auth, {}, (error, success, body) => {
-        if (error) {
-            callback(error)
+exports.authenticate = (successCallback, errorCallback) => {
+    request.post(endpoints.api.endpoint + endpoints.api.path.auth, {}, (error, response, body) => {
+        if (response.statusCode >= 400) {
+            return errorCallback(error);
         }
-        callback(error, JSON.parse(body));
+        successCallback(JSON.parse(body));
     });
 };

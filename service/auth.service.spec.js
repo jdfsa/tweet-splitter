@@ -18,30 +18,56 @@ describe('/service/auth.service.js', () => {
 
     before(() => {
         servicePath = path.join(process.cwd(), 'service', 'auth.service');
-    });
-
-    beforeEach(() => {
         service = proxyquire(servicePath, {
             'request': request
         });
+    });
 
+    beforeEach(() => {
         spyRequestPost = sinon.spy(request, 'post');
     });
 
-    it('should fetch valid content', (end) => {
+    afterEach(() => {
+        request.post.restore();
+    });
+
+    it('should return valid a valid token', (end) => {
+
         // response mocking
         nock(endpoints.api.endpoint).post(endpoints.api.path.auth).reply(200, { token: 'test_token' });
 
-        service.authenticate((error, data) => {
-
-            // assertions
-            assert(spyRequestPost.calledOnce);
-            assert.equal(spyRequestPost.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.auth);
-            assert.deepEqual(spyRequestPost.getCall(0).args[1], {});
-            expect(data).to.be.eql({
-                token: 'test_token'
+        service.authenticate(
+            (success) => {
+                // assertions
+                assert(spyRequestPost.calledOnce);
+                assert.equal(spyRequestPost.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.auth);
+                assert.deepEqual(spyRequestPost.getCall(0).args[1], {});
+                expect(success).to.be.eql({
+                    token: 'test_token'
+                });
+                end();
+            }, 
+            (error) => {
+                assert.fail('an error response was not expected');
             });
-            end();
-        });
+    });
+
+    it('should return 500 error', (end) => {
+        
+        // response mocking
+        nock(endpoints.api.endpoint).post(endpoints.api.path.auth).reply(500, null);
+
+        service.authenticate(
+            (success) => {
+                assert.fail('a success response was not expected');
+            },
+            (error) => {
+                // assertions
+                assert(spyRequestPost.calledOnce);
+                assert.equal(spyRequestPost.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.auth);
+                assert.deepEqual(spyRequestPost.getCall(0).args[1], {});
+                assert(!error);
+                end();
+            });
     });
 });
