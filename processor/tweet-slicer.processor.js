@@ -1,5 +1,5 @@
 function PushTweetMessage(tweetsArray, text) {
-    tweetsArray.push('Tweet #' + (tweetsArray.length + 1) + ': ' + text);
+    tweetsArray.push('Tweet #' + (tweetsArray.length + 1) + ': ' + text.trim());
 }
 
 exports.slice = (tweetText, numCharacters) => {
@@ -10,7 +10,7 @@ exports.slice = (tweetText, numCharacters) => {
     for (let i = 0; i < splittedText.length;) {
         const word = splittedText[i];
         const checkPhrase = tweetPhrase + (tweetPhrase.length ? ' ' : '') + word;
-        if (checkPhrase.length >= numCharacters) {
+        if (checkPhrase.length > numCharacters) {
             PushTweetMessage(tweets, tweetPhrase);
             tweetPhrase = '';
             continue;

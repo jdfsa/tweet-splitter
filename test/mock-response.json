@@ -1,0 +1,2056 @@
+[
+    {
+        "created_at": "Wed Apr 11 22:15:17 +0000 2018",
+        "id": 984193195117547500,
+        "id_str": "984193195117547520",
+        "text": "@Jukcoutinho    Boa noite! Não há registro de interferência no local. A CET agradece o contato.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "Jukcoutinho",
+                    "name": "Julia Coutinho",
+                    "id": 978755026377113600,
+                    "id_str": "978755026377113600",
+                    "indices": [
+                        0,
+                        12
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": 984185224849477600,
+        "in_reply_to_status_id_str": "984185224849477632",
+        "in_reply_to_user_id": 978755026377113600,
+        "in_reply_to_user_id_str": "978755026377113600",
+        "in_reply_to_screen_name": "Jukcoutinho",
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 22:08:41 +0000 2018",
+        "id": 984191533191745500,
+        "id_str": "984191533191745536",
+        "text": "Rua Palestra Itália sentido único,  entre a Praça Marrey Junior e a Avenida Pompéia, interditada devido a evento. Evite a região.  #ZO",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "ZO",
+                    "indices": [
+                        131,
+                        134
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 22:00:04 +0000 2018",
+        "id": 984189364489080800,
+        "id_str": "984189364489080833",
+        "text": "Avenida Ipiranga sentido único, interditada devido a manifestação,  junto à Avenida São Luis. Evite a região.  #ZC",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/RCOr8Wqrlg",
+                    "expanded_url": "https://twitter.com/i/web/status/984189364489080833",
+                    "display_url": "twitter.com/i/web/status/9…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 21:38:19 +0000 2018",
+        "id": 984183890981150700,
+        "id_str": "984183890981150732",
+        "text": "Avenida Ipiranga sentido único, liberada em relação a  manifestação,  junto à Avenida São Luis. \n  #ZC",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "ZC",
+                    "indices": [
+                        99,
+                        102
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 21:29:41 +0000 2018",
+        "id": 984181718226821100,
+        "id_str": "984181718226821121",
+        "text": "🚧 Das 23h30 às 4h30, Túnel Max Feffer estará interditado, em ambos os sentidos, para realização de serviços de limp… https://t.co/RCOr8Wqrlg",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "ZC",
+                    "indices": [
+                        111,
+                        114
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 21:25:01 +0000 2018",
+        "id": 984180545079906300,
+        "id_str": "984180545079906305",
+        "text": "@augustovrg  Olá, sua informação foi registrada para providências. Agradecemos o contato.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "augustovrg",
+                    "name": "AUGUSTO",
+                    "id": 1552052964,
+                    "id_str": "1552052964",
+                    "indices": [
+                        0,
+                        11
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": 984174284569563100,
+        "in_reply_to_status_id_str": "984174284569563136",
+        "in_reply_to_user_id": 1552052964,
+        "in_reply_to_user_id_str": "1552052964",
+        "in_reply_to_screen_name": "augustovrg",
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 21:15:00 +0000 2018",
+        "id": 984178024278093800,
+        "id_str": "984178024278093826",
+        "text": "Marginal Pinheiros, sentido Interlagos, pista expressa, liberada faixa da esquerda junto à Ponte Estaiada. #ZS",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "ZS",
+                    "indices": [
+                        107,
+                        110
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 21:11:52 +0000 2018",
+        "id": 984177235253919700,
+        "id_str": "984177235253919750",
+        "text": "Avenida Vinte e Três de Maio, sentido Aeroporto, próximo do Viaduto Paraíso, interferência interdita três faixas. Evite a região.  #ZS",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "ZS",
+                    "indices": [
+                        131,
+                        134
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 21:00:06 +0000 2018",
+        "id": 984174274889076700,
+        "id_str": "984174274889076737",
+        "text": "🚧 Para realização de manutenção no Viaduto Arapuã, trânsito na Av. Affonso D'Escragnolle Taunay será parcialmente i… https://t.co/xEQew2q7VB",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/xEQew2q7VB",
+                    "expanded_url": "https://twitter.com/i/web/status/984174274889076737",
+                    "display_url": "twitter.com/i/web/status/9…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 20:47:09 +0000 2018",
+        "id": 984171014291632100,
+        "id_str": "984171014291632133",
+        "text": "@Mariodaneula  Olá, sua informação foi registrada para providências. Agradecemos o contato.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "Mariodaneula",
+                    "name": "Mario e Neula Garcia",
+                    "id": 293756385,
+                    "id_str": "293756385",
+                    "indices": [
+                        0,
+                        13
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": 984169303678312400,
+        "in_reply_to_status_id_str": "984169303678312454",
+        "in_reply_to_user_id": 293756385,
+        "in_reply_to_user_id_str": "293756385",
+        "in_reply_to_screen_name": "Mariodaneula",
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 20:33:29 +0000 2018",
+        "id": 984167576841449500,
+        "id_str": "984167576841449473",
+        "text": "Marginal Pinheiros, sentido Interlagos, pista expressa, interdita faixa da esquerda junto à Ponte Estaiada.  #ZS",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "ZS",
+                    "indices": [
+                        109,
+                        112
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 20:21:37 +0000 2018",
+        "id": 984164586751451100,
+        "id_str": "984164586751451136",
+        "text": "Marginal Pinheiros sentido Interlagos, pista expressa após Ponte Ary Torres,  duas faixas da esquerda liberadas, em… https://t.co/Dpn2lewLeq",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/Dpn2lewLeq",
+                    "expanded_url": "https://twitter.com/i/web/status/984164586751451136",
+                    "display_url": "twitter.com/i/web/status/9…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 5,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 19:35:06 +0000 2018",
+        "id": 984152880935563300,
+        "id_str": "984152880935563265",
+        "text": "Marginal Pinheiros, sentido Interlagos, pista unica, antes da Ponte do Socorro,  duas faixas liberadas em relação a interferência. #ZS.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "ZS",
+                    "indices": [
+                        131,
+                        134
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 19:25:12 +0000 2018",
+        "id": 984150389384712200,
+        "id_str": "984150389384712192",
+        "text": "Marginal Pinheiros sentido Interlagos, pista expressa,  após Ponte Ary Torres, interferência interdita duas faixas… https://t.co/rSztiFaNKC",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/rSztiFaNKC",
+                    "expanded_url": "https://twitter.com/i/web/status/984150389384712192",
+                    "display_url": "twitter.com/i/web/status/9…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 18:27:53 +0000 2018",
+        "id": 984135965122924500,
+        "id_str": "984135965122924544",
+        "text": "Interferência na Marginal Pinheiros, sentido Interlagos, pista unica, antes da Ponte do Socorro, interditada duas faixas. #ZS.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "ZS",
+                    "indices": [
+                        122,
+                        125
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 4,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 18:08:58 +0000 2018",
+        "id": 984131207402319900,
+        "id_str": "984131207402319875",
+        "text": "@correfrotinha, Olá, sua informação foi registrada para providências. Agradecemos o contato.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "correfrotinha",
+                    "name": "Beije o pé da Vaca™",
+                    "id": 206793538,
+                    "id_str": "206793538",
+                    "indices": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": 984122683544793100,
+        "in_reply_to_status_id_str": "984122683544793090",
+        "in_reply_to_user_id": 206793538,
+        "in_reply_to_user_id_str": "206793538",
+        "in_reply_to_screen_name": "correfrotinha",
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 18:00:10 +0000 2018",
+        "id": 984128989928345600,
+        "id_str": "984128989928345601",
+        "text": "⚽ Por conta da partida entre @Palmeiras x @BocaJrsOficial no @AllianzParque, região da Pompéia tem trânsito monitor… https://t.co/918z5hISCY",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "Palmeiras",
+                    "name": "SE Palmeiras",
+                    "id": 46104914,
+                    "id_str": "46104914",
+                    "indices": [
+                        29,
+                        39
+                    ]
+                },
+                {
+                    "screen_name": "BocaJrsOficial",
+                    "name": "Boca Jrs. Oficial",
+                    "id": 42933426,
+                    "id_str": "42933426",
+                    "indices": [
+                        42,
+                        57
+                    ]
+                },
+                {
+                    "screen_name": "AllianzParque",
+                    "name": "Allianz Parque",
+                    "id": 272102958,
+                    "id_str": "272102958",
+                    "indices": [
+                        61,
+                        75
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/918z5hISCY",
+                    "expanded_url": "https://twitter.com/i/web/status/984128989928345601",
+                    "display_url": "twitter.com/i/web/status/9…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 4,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 17:59:14 +0000 2018",
+        "id": 984128755403821000,
+        "id_str": "984128755403821056",
+        "text": "@DenisBorges26 Olá, de acordo c/ o CTB Art. 184: https://t.co/iUxuseJfTG Transitar c/ o veículo: III – na faixa ou… https://t.co/XqlCm1ju3I",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "DenisBorges26",
+                    "name": "Dênis Borges De Oliveira",
+                    "id": 637158677,
+                    "id_str": "637158677",
+                    "indices": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/iUxuseJfTG",
+                    "expanded_url": "http://bit.ly/2HeKoWX",
+                    "display_url": "bit.ly/2HeKoWX",
+                    "indices": [
+                        49,
+                        72
+                    ]
+                },
+                {
+                    "url": "https://t.co/XqlCm1ju3I",
+                    "expanded_url": "https://twitter.com/i/web/status/984128755403821056",
+                    "display_url": "twitter.com/i/web/status/9…",
+                    "indices": [
+                        116,
+                        139
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": 984116197573750800,
+        "in_reply_to_status_id_str": "984116197573750784",
+        "in_reply_to_user_id": 637158677,
+        "in_reply_to_user_id_str": "637158677",
+        "in_reply_to_screen_name": "DenisBorges26",
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 17:35:07 +0000 2018",
+        "id": 984122685725831200,
+        "id_str": "984122685725831174",
+        "text": "@DenisBorges26 Ola, veja neste link: https://t.co/fib2IoWNuz a legislação vigente sobre táxis nas faixas e corredor… https://t.co/X6xrKAz3T7",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "DenisBorges26",
+                    "name": "Dênis Borges De Oliveira",
+                    "id": 637158677,
+                    "id_str": "637158677",
+                    "indices": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/fib2IoWNuz",
+                    "expanded_url": "http://bit.ly/1JsCwLR",
+                    "display_url": "bit.ly/1JsCwLR",
+                    "indices": [
+                        37,
+                        60
+                    ]
+                },
+                {
+                    "url": "https://t.co/X6xrKAz3T7",
+                    "expanded_url": "https://twitter.com/i/web/status/984122685725831174",
+                    "display_url": "twitter.com/i/web/status/9…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": 984116166066102300,
+        "in_reply_to_status_id_str": "984116166066102277",
+        "in_reply_to_user_id": 637158677,
+        "in_reply_to_user_id_str": "637158677",
+        "in_reply_to_screen_name": "DenisBorges26",
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Wed Apr 11 16:24:59 +0000 2018",
+        "id": 984105036543381500,
+        "id_str": "984105036543381506",
+        "text": "Referente a interferência na Marginal Pinheiros, sentido Castelo Branco, pista expressa, junto a Ponte Itapaiúna, via liberada.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://www.scup.com\" rel=\"nofollow\">Scup</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 339261594,
+            "id_str": "339261594",
+            "name": "CET São Paulo",
+            "screen_name": "CETSP_",
+            "location": "São Paulo - SP",
+            "description": "Twitter Oficial da CET - Companhia de Engenharia de Tráfego • \nSecretaria Municipal de Mobilidade e Transportes • \nPrefeitura de São Paulo",
+            "url": "http://t.co/TucfW26aQZ",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/TucfW26aQZ",
+                            "expanded_url": "http://www.cetsp.com.br/",
+                            "display_url": "cetsp.com.br",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 1304287,
+            "friends_count": 15,
+            "listed_count": 635,
+            "created_at": "Wed Jul 20 20:45:21 +0000 2011",
+            "favourites_count": 58,
+            "utc_offset": -10800,
+            "time_zone": "Brasilia",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 112321,
+            "lang": "pt",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "022330",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/368346076/cet_fundo_twitter.jpg",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/966679421015994368/czsk7sM7_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/339261594/1506449160",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "A8C7F7",
+            "profile_sidebar_fill_color": "C0DFEC",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 4,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    }
+]
