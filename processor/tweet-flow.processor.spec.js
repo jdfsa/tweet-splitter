@@ -18,66 +18,58 @@ describe('/processor/tweet-flow.processor.js', () => {
     });
 
     beforeEach(() => {
-        tempAuthenticateImpl = (successCallback, errorCallback) => {};
-        tempGetSplittedTweetImpl = (successCallback, errorCallback) => {};
+        tempAuthenticateImpl = (callback) => {};
+        tempGetSplittedTweetImpl = (callback) => {};
 
         processor = proxyquire(processorPath, {
             '../service/auth.service': {
-                authenticate: (successCallback, errorCallback) => {
-                    tempAuthenticateImpl(successCallback, errorCallback);
+                authenticate: (callback) => {
+                    tempAuthenticateImpl(callback);
                 }
             },
             './tweet.processor': {
-                getSplittedTweet: (successCallback, errorCallback) => {
-                    tempGetSplittedTweetImpl(successCallback, errorCallback);
+                getSplittedTweet: (callback) => {
+                    tempGetSplittedTweetImpl(callback);
                 }
             }
         });
     });
 
     it('should return error when authenticating', (end) => {
-        tempAuthenticateImpl = (successCallback, errorCallback) => {
-            errorCallback(null);
+        tempAuthenticateImpl = (callback) => {
+            callback(new Error('Not authenticated'));
         };
 
-        processor.processTweets(
-            (data) => {
-                assert.fail('an success response was not expeted');
-            },
-            (error) => {
-                assert.equal(error.message, new Error("Not authenticate").message);
-                end();
-            }
-        );
+        processor.processTweets((error, data) => {
+            assert(!data, 'an success response was not expeted');
+            assert.equal(error.message, new Error("Not authenticated").message);
+            end();
+        });
     });
 
     it('should return error when getting tweets', (end) => {
-        tempAuthenticateImpl = (successCallback, errorCallback) => {
-            successCallback({ 'token': 'test_token' });
+        tempAuthenticateImpl = (callback) => {
+            callback(null, { 'token': 'test_token' });
         };
 
-        tempGetSplittedTweetImpl = (successCallback, errorCallback) => {
-            errorCallback({"message": "Invalid JWT token." });
+        tempGetSplittedTweetImpl = (callback) => {
+            callback({"message": "Invalid JWT token." });
         };
 
-        processor.processTweets(
-            (data) => {
-                assert.fail('an success response was not expeted');
-            },
-            (error) => {
-                assert.deepEqual(error, {"message": "Invalid JWT token." });
-                end();
-            }
-        );
+        processor.processTweets((error, data) => {
+            assert(!data, 'an success response was not expeted');
+            assert.deepEqual(error, {"message": "Invalid JWT token." });
+            end();
+        });
     });
 
     it('should autenticate and get any tweet message', (end) => {
-        tempAuthenticateImpl = (successCallback, errorCallback) => {
-            successCallback({ 'token': 'test_token' });
+        tempAuthenticateImpl = (callback) => {
+            callback(null, { 'token': 'test_token' });
         };
 
-        tempGetSplittedTweetImpl = (successCallback, errorCallback) => {
-            successCallback([
+        tempGetSplittedTweetImpl = (callback) => {
+            callback(null, [
                 "Tweet #1: 🚧 Das 23h30 às 4h30, Túnel Max Feffer estará",
                 "Tweet #2: interditado, em ambos os sentidos, para",
                 "Tweet #3: realização de serviços de limp…",
@@ -85,19 +77,15 @@ describe('/processor/tweet-flow.processor.js', () => {
             ]);
         };
 
-        processor.processTweets(
-            (data) => {
-                assert.deepEqual(data, [
-                    "Tweet #1: 🚧 Das 23h30 às 4h30, Túnel Max Feffer estará",
-                    "Tweet #2: interditado, em ambos os sentidos, para",
-                    "Tweet #3: realização de serviços de limp…",
-                    "Tweet #4: https://t.co/RCOr8Wqrlg"
-                ]);
-                end();
-            },
-            (error) => {
-                assert.fail('an error response was not expeted');
-            }
-        );
+        processor.processTweets((error, data) => {
+            assert(!error, 'an error response was not expeted');
+            assert.deepEqual(data, [
+                "Tweet #1: 🚧 Das 23h30 às 4h30, Túnel Max Feffer estará",
+                "Tweet #2: interditado, em ambos os sentidos, para",
+                "Tweet #3: realização de serviços de limp…",
+                "Tweet #4: https://t.co/RCOr8Wqrlg"
+            ]);
+            end();
+        });
     });
 });

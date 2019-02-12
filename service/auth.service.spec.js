@@ -36,20 +36,16 @@ describe('/service/auth.service.js', () => {
         // response mocking
         nock(endpoints.api.endpoint).post(endpoints.api.path.auth).reply(200, { token: 'test_token' });
 
-        service.authenticate(
-            (success) => {
-                // assertions
-                assert(spyRequestPost.calledOnce);
-                assert.equal(spyRequestPost.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.auth);
-                assert.deepEqual(spyRequestPost.getCall(0).args[1], {});
-                expect(success).to.be.eql({
-                    token: 'test_token'
-                });
-                end();
-            }, 
-            (error) => {
-                assert.fail('an error response was not expected');
+        service.authenticate((error, data) => {
+            assert(!error, 'an error response was not expected');
+            assert(spyRequestPost.calledOnce);
+            assert.equal(spyRequestPost.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.auth);
+            assert.deepEqual(spyRequestPost.getCall(0).args[1], {});
+            expect(data).to.be.eql({
+                token: 'test_token'
             });
+            end();
+        });
     });
 
     it('should return 500 error', (end) => {
@@ -57,17 +53,13 @@ describe('/service/auth.service.js', () => {
         // response mocking
         nock(endpoints.api.endpoint).post(endpoints.api.path.auth).reply(500);
 
-        service.authenticate(
-            (success) => {
-                assert.fail('a success response was not expected');
-            },
-            (error) => {
-                // assertions
-                assert(spyRequestPost.calledOnce);
-                assert.equal(spyRequestPost.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.auth);
-                assert.deepEqual(spyRequestPost.getCall(0).args[1], {});
-                assert(!error);
-                end();
-            });
+        service.authenticate((error, data) => {
+            assert(!data, 'a success response was not exected');
+            assert(spyRequestPost.calledOnce);
+            assert.equal(spyRequestPost.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.auth);
+            assert.deepEqual(spyRequestPost.getCall(0).args[1], {});
+            assert.equal(error.message, new Error('Not authenticated').message);
+            end();
+        });
     });
 });

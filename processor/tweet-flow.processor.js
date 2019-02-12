@@ -3,35 +3,31 @@ const async = require('async');
 const authService = require('../service/auth.service');
 const tweetProcessor = require('./tweet.processor');
 
-exports.processTweets = (successCallback, errorCallback) => {
+exports.processTweets = (callback) => {
     async.waterfall([
         // authentication
         (callback) => {
-            authService.authenticate(
-                (data) => {
-                    callback(null, data.token);
-                },
-                (error) => {
-                    callback(new Error("Not authenticate"));
+            authService.authenticate((error, data) => {
+                if (error) {
+                    return callback(error);
                 }
-            )
+                callback(null, data);
+            })
         },
         // tweet
         (token, callback) => {
-            tweetProcessor.getSplittedTweet(
-                (data) => {
-                    callback(null, data);
-                },
-                (error) => {
-                    callback(error)
+            tweetProcessor.getSplittedTweet((error, data) => {
+                if (error) {
+                    return callback(error);
                 }
-            )
+                callback(null, data);
+            });
         }
     ], (error, data) => {
         if (error) {
-            return errorCallback(error);
+            return callback(error);
         }
 
-        successCallback(data);
+        callback(null, data);
     });
 };

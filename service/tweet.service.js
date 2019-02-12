@@ -3,7 +3,7 @@
 const endpoints = require('../config/endpoints');
 const request = require('request');
 
-exports.getTweets = (token, successCallback, errorCallback) => {
+exports.getTweets = (token, callback) => {
     request.get(endpoints.api.endpoint + endpoints.api.path.tweet, 
         {
             headers: {
@@ -13,8 +13,8 @@ exports.getTweets = (token, successCallback, errorCallback) => {
         (error, response, body) => {
             const data = body ? JSON.parse(body) : null;
             if (response.statusCode >= 400) {
-                return errorCallback(data);
+                return callback(data);
             }
-            successCallback(data);
+            callback(null, data);
         });
 };

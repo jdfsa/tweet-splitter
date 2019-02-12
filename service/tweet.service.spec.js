@@ -42,22 +42,18 @@ describe('/service/tweet.service.js', () => {
         .get(endpoints.api.path.tweet)
         .reply(200, [{"created_at": "Wed Apr 11 22:15:17 +0000 2018" }]);
 
-        service.getTweets(
-            'test_token',
-            (success) => {
-                assert(spyRequestGet.calledOnce);
-                assert.equal(spyRequestGet.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.tweet);
-                assert.deepEqual(spyRequestGet.getCall(0).args[1], {
-                    headers: {
-                        'Authorization': 'test_token'
-                    }
-                });
-                expect(success).to.deep.eql([{"created_at": "Wed Apr 11 22:15:17 +0000 2018" }]);
-                end();
-            }, 
-            (error) => {
-                assert.fail('an error response was not expected');
+        service.getTweets('test_token', (error, data) => {
+            assert(!error, 'an error response was not expected');
+            assert(spyRequestGet.calledOnce);
+            assert.equal(spyRequestGet.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.tweet);
+            assert.deepEqual(spyRequestGet.getCall(0).args[1], {
+                headers: {
+                    'Authorization': 'test_token'
+                }
             });
+            expect(data).to.deep.eql([{"created_at": "Wed Apr 11 22:15:17 +0000 2018" }]);
+            end();
+        });
     });
 
     it('should return 403 error', (end) => {
@@ -71,22 +67,18 @@ describe('/service/tweet.service.js', () => {
         .get(endpoints.api.path.tweet)
         .reply(403, {"message": "Invalid JWT token." });
 
-        service.getTweets(
-            'test_token',
-            (success) => {
-                assert.fail('a success response was not expected');
-            }, 
-            (error) => {
-                assert(spyRequestGet.calledOnce);
-                assert.equal(spyRequestGet.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.tweet);
-                assert.deepEqual(spyRequestGet.getCall(0).args[1], {
-                    headers: {
-                        'Authorization': 'test_token'
-                    }
-                });
-                expect(error).to.be.eql({"message": "Invalid JWT token." });
-                end();
+        service.getTweets('test_token', (error, data) => {
+            assert(!data, 'a success response was not expected');
+            assert(spyRequestGet.calledOnce);
+            assert.equal(spyRequestGet.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.tweet);
+            assert.deepEqual(spyRequestGet.getCall(0).args[1], {
+                headers: {
+                    'Authorization': 'test_token'
+                }
             });
+            expect(error).to.be.eql({"message": "Invalid JWT token." });
+            end();
+        });
     });
 
     it('should return 500 error', (end) => {
@@ -98,21 +90,17 @@ describe('/service/tweet.service.js', () => {
             }
         }).get(endpoints.api.path.tweet).reply(500);
 
-        service.getTweets(
-            'test_token',
-            (success) => {
-                assert.fail('a success response was not expected');
-            }, 
-            (error) => {
-                assert(spyRequestGet.calledOnce);
-                assert.equal(spyRequestGet.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.tweet);
-                assert.deepEqual(spyRequestGet.getCall(0).args[1], {
-                    headers: {
-                        'Authorization': 'test_token'
-                    }
-                });
-                assert(!error);
-                end();
+        service.getTweets('test_token', (error, data) => {
+            assert(!data, 'a success response was not expected');
+            assert(spyRequestGet.calledOnce);
+            assert.equal(spyRequestGet.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.tweet);
+            assert.deepEqual(spyRequestGet.getCall(0).args[1], {
+                headers: {
+                    'Authorization': 'test_token'
+                }
             });
+            assert(!error);
+            end();
+        });
     });
 });
