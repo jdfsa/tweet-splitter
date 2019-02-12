@@ -11,8 +11,9 @@ exports.getTweets = (token, callback) => {
             }
         }, 
         (error, response, body) => {
-            const data = body ? JSON.parse(body) : null;
+            const data = body ? JSON.parse(body) : new Error("Server error");
             if (response.statusCode >= 400) {
+                data.statusCode = response.statusCode;
                 return callback(data);
             }
             callback(null, data);

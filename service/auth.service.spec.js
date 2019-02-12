@@ -58,7 +58,8 @@ describe('/service/auth.service.js', () => {
             assert(spyRequestPost.calledOnce);
             assert.equal(spyRequestPost.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.auth);
             assert.deepEqual(spyRequestPost.getCall(0).args[1], {});
-            assert.equal(error.message, new Error('Not authenticated').message);
+            assert.equal(error.message, 'Not authenticated');
+            assert.equal(error.statusCode, 500);
             end();
         });
     });

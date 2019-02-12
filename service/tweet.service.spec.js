@@ -76,7 +76,7 @@ describe('/service/tweet.service.js', () => {
                     'Authorization': 'test_token'
                 }
             });
-            expect(error).to.be.eql({"message": "Invalid JWT token." });
+            expect(error).to.be.eql({"message": "Invalid JWT token.", "statusCode": 403 });
             end();
         });
     });
@@ -99,7 +99,8 @@ describe('/service/tweet.service.js', () => {
                     'Authorization': 'test_token'
                 }
             });
-            assert(!error);
+            expect(error.message).to.be.equal('Server error');
+            expect(error.statusCode).to.be.eql(500);
             end();
         });
     });
