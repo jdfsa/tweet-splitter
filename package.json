@@ -23,12 +23,17 @@
   "devDependencies": {
     "async": "^2.6.1",
     "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
     "fs": "0.0.1-security",
     "mocha": "^5.2.0",
     "nock": "^10.0.6",
     "path": "^0.12.7",
     "proxyquire": "^2.1.0",
     "request": "^2.88.0",
-    "sinon": "^7.2.3"
+    "sinon": "^7.2.3",
+    "supertest": "^3.4.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
