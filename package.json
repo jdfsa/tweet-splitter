@@ -21,6 +21,7 @@
     "Splitter"
   ],
   "devDependencies": {
+    "async": "^2.6.1",
     "chai": "^4.2.0",
     "fs": "0.0.1-security",
     "mocha": "^5.2.0",

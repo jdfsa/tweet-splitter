@@ -34,13 +34,24 @@ describe('/service/tweet.service.js', () => {
     it('should return valid tweets', (end) => {
 
         // response mocking
-        nock(endpoints.api.endpoint).get(endpoints.api.path.tweet).reply(200, [{"created_at": "Wed Apr 11 22:15:17 +0000 2018" }]);
+        nock(endpoints.api.endpoint, {
+            reqheaders: {
+                'Authorization': 'test_token'
+            }
+        })
+        .get(endpoints.api.path.tweet)
+        .reply(200, [{"created_at": "Wed Apr 11 22:15:17 +0000 2018" }]);
 
         service.getTweets(
+            'test_token',
             (success) => {
                 assert(spyRequestGet.calledOnce);
                 assert.equal(spyRequestGet.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.tweet);
-                assert.deepEqual(spyRequestGet.getCall(0).args[1], {});
+                assert.deepEqual(spyRequestGet.getCall(0).args[1], {
+                    headers: {
+                        'Authorization': 'test_token'
+                    }
+                });
                 expect(success).to.deep.eql([{"created_at": "Wed Apr 11 22:15:17 +0000 2018" }]);
                 end();
             }, 
@@ -52,16 +63,27 @@ describe('/service/tweet.service.js', () => {
     it('should return 403 error', (end) => {
 
         // response mocking
-        nock(endpoints.api.endpoint).get(endpoints.api.path.tweet).reply(403, {"message": "Invalid JWT token." });
+        nock(endpoints.api.endpoint, {
+            reqheaders: {
+                'Authorization': 'test_token'
+            }
+        })
+        .get(endpoints.api.path.tweet)
+        .reply(403, {"message": "Invalid JWT token." });
 
         service.getTweets(
+            'test_token',
             (success) => {
                 assert.fail('a success response was not expected');
             }, 
             (error) => {
                 assert(spyRequestGet.calledOnce);
                 assert.equal(spyRequestGet.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.tweet);
-                assert.deepEqual(spyRequestGet.getCall(0).args[1], {});
+                assert.deepEqual(spyRequestGet.getCall(0).args[1], {
+                    headers: {
+                        'Authorization': 'test_token'
+                    }
+                });
                 expect(error).to.be.eql({"message": "Invalid JWT token." });
                 end();
             });
@@ -70,16 +92,25 @@ describe('/service/tweet.service.js', () => {
     it('should return 500 error', (end) => {
 
         // response mocking
-        nock(endpoints.api.endpoint).get(endpoints.api.path.tweet).reply(500);
+        nock(endpoints.api.endpoint, {
+            reqheaders: {
+                'Authorization': 'test_token'
+            }
+        }).get(endpoints.api.path.tweet).reply(500);
 
         service.getTweets(
+            'test_token',
             (success) => {
                 assert.fail('a success response was not expected');
             }, 
             (error) => {
                 assert(spyRequestGet.calledOnce);
                 assert.equal(spyRequestGet.getCall(0).args[0], endpoints.api.endpoint + endpoints.api.path.tweet);
-                assert.deepEqual(spyRequestGet.getCall(0).args[1], {});
+                assert.deepEqual(spyRequestGet.getCall(0).args[1], {
+                    headers: {
+                        'Authorization': 'test_token'
+                    }
+                });
                 assert(!error);
                 end();
             });

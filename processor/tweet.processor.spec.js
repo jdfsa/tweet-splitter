@@ -5,10 +5,8 @@ const chai = require('chai');
 const sinon = require('sinon');
 const path = require('path');
 
-const endpoints = require('../config/endpoints');
 const mockResponse = require('../test/mock-response.json');
 
-const expect = chai.expect;
 const assert = chai.assert;
 
 describe('/processor/tweet.processor.js', () => {
@@ -19,7 +17,7 @@ describe('/processor/tweet.processor.js', () => {
         const servicePath = path.join(process.cwd(), 'processor', 'tweet.processor');
         service = proxyquire(servicePath, {
             '../service/tweet.service': {
-                getTweets: (successCallback, errorCallback) => {
+                getTweets: (token, successCallback, errorCallback) => {
                     successCallback(mockResponse)
                 }
             }
@@ -38,6 +36,7 @@ describe('/processor/tweet.processor.js', () => {
         sinon.stub(Math, 'random').returns(0.2);
 
         service.getSplittedTweet(
+            'test_token',
             (data) => {
                 assert.deepEqual(data, [
                     "Tweet #1: 🚧 Das 23h30 às 4h30, Túnel Max Feffer estará",
