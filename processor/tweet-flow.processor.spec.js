@@ -45,7 +45,27 @@ describe('/processor/tweet-flow.processor.js', () => {
                 assert.fail('an success response was not expeted');
             },
             (error) => {
-                assert.deepEqual(error.message, new Error("Not authenticate").message);
+                assert.equal(error.message, new Error("Not authenticate").message);
+                end();
+            }
+        );
+    });
+
+    it('should return error when getting tweets', (end) => {
+        tempAuthenticateImpl = (successCallback, errorCallback) => {
+            successCallback({ 'token': 'test_token' });
+        };
+
+        tempGetSplittedTweetImpl = (successCallback, errorCallback) => {
+            errorCallback({"message": "Invalid JWT token." });
+        };
+
+        processor.processTweets(
+            (data) => {
+                assert.fail('an success response was not expeted');
+            },
+            (error) => {
+                assert.deepEqual(error, {"message": "Invalid JWT token." });
                 end();
             }
         );
