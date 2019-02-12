@@ -13,8 +13,8 @@ describe('index.js', () => {
     const scenarios = [
         {
             id: 1,
-            impl: (successCallback, errorCallback) => {
-                successCallback([
+            impl: (callback) => {
+                callback(null, [
                     'Tweet #1: Rua Palestra Itália sentido único,  entre a',
                     'Tweet #2: Praça Marrey Junior e a Avenida Pompéia,',
                     'Tweet #3: interditada devido a evento. Evite a região.',
@@ -29,6 +29,16 @@ describe('index.js', () => {
                     'Tweet #3: interditada devido a evento. Evite a região.',
                     'Tweet #4: #ZO'
                 ]
+            }
+        },
+        {
+            id: 2,
+            impl: (callback) => {
+                callback(new Error('error test'))
+            },
+            expected: {
+                status: 500,
+                data: {}
             }
         }
     ]

@@ -8,14 +8,12 @@ const port = 3011;
 
 app.route('/')
     .get((request, resonse) => {
-        tweetFlow.processTweets(
-            (success) => {
-                resonse.json(success);
-            },
-            (error) => {
-                response.status(500).json(new Error('error'));
+        tweetFlow.processTweets((error, success) => {
+            if (error) {
+                return response.status(500).json(error);
             }
-        )
+            resonse.json(success);
+        });
     });
 
 if (process.env.NODE_ENV !== 'test') {
