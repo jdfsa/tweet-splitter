@@ -2,7 +2,15 @@ function PushTweetMessage(tweetsArray, text) {
     tweetsArray.push('Tweet #' + (tweetsArray.length + 1) + ': ' + text.trim());
 }
 
-exports.slice = (tweetText, numCharacters) => {
+/**
+ * Slice any `tweetText` given a `numCharacters`, 
+ * but taking into consideration the spaces so the outcome makes sense.
+ * 
+ * @param {String} tweetText the tweet text to be sliced
+ * @param {Number} numCharacters the number of characters
+ * @returns Array<String> containing the sliced version of the tweet
+ */
+function Slice(tweetText, numCharacters) {
     let tweets = [];
     let splittedText = tweetText.split(' ');
 
@@ -27,3 +35,5 @@ exports.slice = (tweetText, numCharacters) => {
 
     return tweets;
 };
+
+exports.slice = Slice;

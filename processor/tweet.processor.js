@@ -3,7 +3,32 @@
 const tweetService = require('../service/tweet.service');
 const tweetSlicer = require('./tweet-slicer.processor');
 
-exports.getSplittedTweet = (token, callback) => {
+/**
+ * Gets a random tweet from the api and slice in many parts based on N characters
+ * 
+ * @param {String} token the authorization token
+ * 
+ * @callback 
+ * called with two parameters:
+ * 
+ *  - error - whenever an error occurs
+ * ``` 
+ { 
+     "message": "<error message>",
+     "stack": "<stack trace (optional)>",
+     "statusCode": "<status code>"
+ } ```
+ * 
+ *  - data - object containing the tweets list
+```
+ [ 
+    "tweet slice 1", 
+    "tweet slice 2", 
+    ..., 
+    "tweet slice n" 
+] ```
+ */
+function GetSplittedTweet(token, callback) {
     tweetService.getTweets(token, (error, data) => {
         if (error) {
             return callback(error);
@@ -15,3 +40,5 @@ exports.getSplittedTweet = (token, callback) => {
         callback(null, tweets);
     });
 };
+
+exports.getSplittedTweet = GetSplittedTweet;

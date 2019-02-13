@@ -3,7 +3,26 @@
 const endpoints = require('../config/endpoints');
 const request = require('request');
 
-exports.getTweets = (token, callback) => {
+/**
+ * Gets the tweets list from the mock api
+ * 
+ * @param {String} token the authorization token
+ * 
+ * @callback 
+ * called with two parameters:
+ * 
+ *  - error - whenever an error occurs
+ * ``` 
+ { 
+     "message": "<error message>",
+     "stack": "<stack trace (optional)>",
+     "statusCode": "<status code>"
+ } ```
+ * 
+ *  - data - object containing the tweets list
+ * ``` { "created_at": "Wed Apr 11 22:00:04 +0000 2018"... } ```
+ */
+function GetTweets(token, callback) {
     request.get(endpoints.api.endpoint + endpoints.api.path.tweet, 
         {
             headers: {
@@ -24,3 +43,5 @@ exports.getTweets = (token, callback) => {
             callback(null, data);
         });
 };
+
+exports.getTweets = GetTweets;
