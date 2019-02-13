@@ -6,13 +6,15 @@ const chai = require('chai');
 const chaiHttp = require('chai-http');
 const proxyquire = require('proxyquire');
 const path = require('path');
-const should = chai.should();
+const expect = chai.expect;
 chai.use(chaiHttp);
+
+const request = require('supertest');
 
 describe('index.js', () => {
     const scenarios = [
         {
-            id: 1,
+            description: 'should return valid response',
             impl: (callback) => {
                 callback(null, [
                     'Tweet #1: Rua Palestra Itália sentido único,  entre a',
@@ -32,13 +34,27 @@ describe('index.js', () => {
             }
         },
         {
-            id: 2,
+            description: 'should return error with status code 500',
             impl: (callback) => {
-                callback(new Error('error test'))
+                var error = new Error('error status code 500');
+                error.statusCode = 500;
+                callback(error)
             },
             expected: {
                 status: 500,
-                data: {}
+                data: { statusCode: 500 }
+            }
+        },
+        {
+            description: 'should return error with status code 403',
+            impl: (callback) => {
+                var error = new Error('error status code 403');
+                error.statusCode = 403;
+                callback(error)
+            },
+            expected: {
+                status: 403,
+                data: { statusCode: 403 }
             }
         }
     ]
@@ -53,12 +69,15 @@ describe('index.js', () => {
             }
         });
 
-        it('should run test case: ' + scenario.id, (end) => {
-            chai.request(server).get('/').end((error, response) => {
-                response.should.have.status(scenario.expected.status);
-                response.body.should.be.eql(scenario.expected.data);
-                end();
-            });
+        it(scenario.description, (end) => {
+            chai.request(server).get('/')
+                .set('Accept', 'application/json')
+                .end((error, response) => {
+                    expect(response).to.have.status(scenario.expected.status);
+                    expect(response).to.have.header('Content-Type', /json/)
+                    expect(response.body).to.be.eql(scenario.expected.data);
+                    end();
+                });
         });
     }
 });
