@@ -19,7 +19,7 @@ describe('/processor/tweet-flow.processor.js', () => {
 
     beforeEach(() => {
         tempAuthenticateImpl = (callback) => {};
-        tempGetSplittedTweetImpl = (callback) => {};
+        tempGetSplittedTweetImpl = (token, callback) => {};
 
         processor = proxyquire(processorPath, {
             '../service/auth.service': {
@@ -28,8 +28,8 @@ describe('/processor/tweet-flow.processor.js', () => {
                 }
             },
             './tweet.processor': {
-                getSplittedTweet: (callback) => {
-                    tempGetSplittedTweetImpl(callback);
+                getSplittedTweet: (token, callback) => {
+                    tempGetSplittedTweetImpl(token, callback);
                 }
             }
         });
@@ -52,7 +52,7 @@ describe('/processor/tweet-flow.processor.js', () => {
             callback(null, { 'token': 'test_token' });
         };
 
-        tempGetSplittedTweetImpl = (callback) => {
+        tempGetSplittedTweetImpl = (token, callback) => {
             callback({"message": "Invalid JWT token." });
         };
 
@@ -68,7 +68,7 @@ describe('/processor/tweet-flow.processor.js', () => {
             callback(null, { 'token': 'test_token' });
         };
 
-        tempGetSplittedTweetImpl = (callback) => {
+        tempGetSplittedTweetImpl = (token, callback) => {
             callback(null, [
                 "Tweet #1: 🚧 Das 23h30 às 4h30, Túnel Max Feffer estará",
                 "Tweet #2: interditado, em ambos os sentidos, para",

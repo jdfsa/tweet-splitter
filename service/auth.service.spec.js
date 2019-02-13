@@ -63,4 +63,28 @@ describe('/service/auth.service.js', () => {
             end();
         });
     });
+it('should return 500 when something bad happen', (end) => {
+
+        // response mocking
+        nock(endpoints.api.endpoint).post(endpoints.api.path.auth).replyWithError('error test');
+
+        service.authenticate((error, data) => {
+            assert(!data, 'a success response was not exected');
+            assert.equal(error.message, 'error test');
+            assert.equal(error.statusCode, 500);
+            end();
+        });
+    });
+    it('should return 500 when something bad happen', (end) => {
+
+        // response mocking
+        nock(endpoints.api.endpoint).post(endpoints.api.path.auth).replyWithError('error test');
+
+        service.authenticate((error, data) => {
+            assert(!data, 'a success response was not exected');
+            assert.equal(error.message, 'error test');
+            assert.equal(error.statusCode, 500);
+            end();
+        });
+    });
 });

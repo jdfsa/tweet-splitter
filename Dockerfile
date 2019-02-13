@@ -10,5 +10,8 @@ RUN npm install
 # bundles all app soruce
 COPY . .
 
+# expose port for the application
+EXPOSE 3011:3011
+
 # runs the application
-CMD node index.js
+CMD npm start

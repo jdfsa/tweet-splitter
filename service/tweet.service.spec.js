@@ -104,4 +104,17 @@ describe('/service/tweet.service.js', () => {
             end();
         });
     });
+
+    it('should return 500 when something bad happen', (end) => {
+
+        // response mocking
+        nock(endpoints.api.endpoint).get(endpoints.api.path.tweet).replyWithError('error test');
+
+        service.getTweets('test_token', (error, data) => {
+            assert(!data, 'a success response was not exected');
+            assert.equal(error.message, 'error test');
+            assert.equal(error.statusCode, 500);
+            end();
+        });
+    });
 });

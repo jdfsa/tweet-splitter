@@ -4,7 +4,9 @@
   "description": "Grabs a message from a tweets API and split it into many parts of N characters",
   "main": "index.js",
   "scripts": {
-    "test": "mocha \"./**/*.spec.js\""
+    "start": "node index.js",
+    "test": "mocha \"./**/*.spec.js\"",
+    "debug": "node --nolazy --inspect-brk=9229 index.js"
   },
   "repository": {
     "type": "git",

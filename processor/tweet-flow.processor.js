@@ -11,12 +11,12 @@ exports.processTweets = (callback) => {
                 if (error) {
                     return callback(error);
                 }
-                callback(null, data);
+                callback(null, data.token);
             })
         },
         // tweet
         (token, callback) => {
-            tweetProcessor.getSplittedTweet((error, data) => {
+            tweetProcessor.getSplittedTweet(token, (error, data) => {
                 if (error) {
                     return callback(error);
                 }

@@ -6,7 +6,6 @@ const bodyParser = require('body-parser');
 const tweetFlow = require('./processor/tweet-flow.processor');
 
 const app = express();
-const port = 3011;
 
 app.use(bodyParser.json());
 app.use(bodyParser.json({ type: 'application/json' }));
@@ -23,7 +22,9 @@ app.get('/', (request, response) => {
 });
 
 if (process.env.NODE_ENV !== 'test') {
-    app.listen(port);
+    const port = 3011;
+    const host = '0.0.0.0';
+    app.listen(port, host);
     console.log('Listening on port ' + port);
 }
 
