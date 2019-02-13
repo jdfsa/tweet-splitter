@@ -11,7 +11,11 @@ RUN npm install
 COPY . .
 
 # expose port for the application
-EXPOSE 3011:3011
+EXPOSE 8080
+
+# conditional running
+ARG run_as
+RUN chmod u+x ./run-config.sh && ./run-config.sh $run_as
 
 # runs the application
-CMD npm start
+CMD npm run app

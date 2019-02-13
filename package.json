@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "server": "node server.js",
+    "app": "./run.sh",
     "test": "mocha \"./**/*.spec.js\"",
     "debug": "node --nolazy --inspect-brk=9229 index.js"
   },
