@@ -1,7 +1,13 @@
 # TweetSplitter
 
-Developed initially with the aim of exploring some simple features of NodeJS working together with Docker, this role of this app is just to grab a message from a tweets API and split it into many parts of N characters, but avoiding break any word in the process.
+Developed initially with the aim of exploring some simple features of NodeJS working together with Docker, the role of this app is just to grab any random tweet from the tweets API and split its message into many parts of *N* characters, but avoiding to break any word in the process.
 
+The tweets API used exposes those endpoints:
+> POST https://n8e480hh63o547stou3ycz5lwz0958.herokuapp.com/1.1/auth
+> (authenticate and retrieve the access token)
+> 
+> GET https://n8e480hh63o547stou3ycz5lwz0958.herokuapp.com/1.1/statuses/home_timeline.json
+> (retrieve the tweets)
 
 ## How to run
 
