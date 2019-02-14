@@ -18,13 +18,13 @@ There are two ways of running the app with docker, depending on what's expected;
 Execute the command below to build a docker image:
 
 ```
-docker build -t zuldigital/engineer-exam .
+docker build -t <user>/<app-name> .
 ```
 
 To start the image with the application, execute the following command:
 
 ```
-docker run --rm zuldigital/engineer-exam
+docker run --rm <user>/<app-name>
 ```
 
 > *Note: this way runs the application only once; it's necessary to rerun whenever a new result is wanted.*
@@ -36,14 +36,14 @@ The commands don't differ much from the console version, except this time the *b
 The commands are as follows:
 
 ```
-docker build -t zuldigital/engineer-exam --build-arg run_as="server" .
-docker run -p <local_port>:8080 --rm zuldigital/engineer-exam
+docker build -t <user>/<app-name> --build-arg run_as="server" .
+docker run -p <local-port>:8080 --rm <user>/<app-name>
 ```
 
 Now it can be tested with *curl* (or any other preferable mean):
 
 ```
-curl -i localhost:<local_port>
+curl -i localhost:<local-port>
 ```
 
-> *Note: `local_port` reffers to the local machine port. The application is already configured to listen in port 8080 inside the Docker container.*
+> *Note: `local-port` reffers to the local machine port. The application is already configured to listen in port 8080 inside the Docker container.*
