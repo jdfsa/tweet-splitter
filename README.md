@@ -1,4 +1,4 @@
-# TweetSplitter
+# Tweet Splitter
 
 Developed initially with the aim of exploring some simple features of NodeJS working together with Docker, the role of this app is just to grab any random tweet from the tweets API and split its message into many parts of *N* characters, but avoiding to break any word in the process.
 
